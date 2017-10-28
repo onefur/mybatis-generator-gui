@@ -66,7 +66,7 @@ public class MybatisGeneratorBridge {
         tableConfig.setSelectByExampleStatementEnabled(false);
         tableConfig.setUpdateByExampleStatementEnabled(false);
         tableConfig.setDeleteByExampleStatementEnabled(false);
-        tableConfig.setCountByExampleStatementEnabled(false);git remot
+        tableConfig.setCountByExampleStatementEnabled(false);
 
         // 针对 postgresql 单独配置
         if (DbType.valueOf(selectedDatabaseConfig.getDbType()).getDriverClass() == "org.postgresql.Driver") {
